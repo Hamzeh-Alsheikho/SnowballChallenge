@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.elevator{
+    background-color:rgb(255, 220, 00);
+}
+
+.nav{ background-color: black;
+    position: fixed;
+     z-index: 10;
+    width: 100%;
+    height: 10%;
+    top: 0%
+
+}
+.nav a{    
+    text-decoration: none;
+    color: white;     
+    padding-left: 12%;
+    font-size: 150%;
+    line-height: 4; 
+}
+.nav a:hover{
+    color: red;
+    
+}
+
+.lift{
+    border-radius: 11%;
+    
+}
+    
+.text1{
+    font-size: 150%;
+    margin-left: 12%;
+    width: 70%;
+    margin-top: 8%;
+    display: flex;
+   
+}
+.line{ padding-left: 10%}
+
+.scanner{
+   border-radius: 11%;
+    position: absolute;
+}
+
+.pic2{
+    margin-top: 10%;
+    margin-left: 22%;
+    margin-bottom: 5%;
+    border-radius: 11%;
+    position: absolute;
+
+}
+
+.text2{
+    font-size: 150%;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 5%;
+    
+
+
+}
+
+.solution{
+    border-style: solid;
+    text-align: center;
+    margin-top: 7em;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 1em;
+    border-radius: 30px;
+    border-width: 5px;
+}
+
+.studentcard{
+    margin-left: 200%;
+    margin-bottom: 5%;
+    border-radius: 11%;
+    position: relative;   
+}
+
+  @media only screen and (max-width:760px){
+        .lift {height: 200px; width: 250px}
+        .line {font-size: 17px; margin-left: 7%;}
+        h1{font-size: 24px;}
+        .solution{margin-left: 5em;
+        margin-right: 7em;}
+      .text1{ display: block;}
+    }
+
+    @media only screen and (max-width:1230px){
+        .studentcard{width: 230px; height:330px; margin-left: 160%;}
+        .scanner{width: 300px; height:270px; }
+        .text1{ display: block;}
+}
+        
+    @media only screen and (max-width: 910px){
+        .pic2{ margin-left: 10%;}
+        .text1{ display: block;}
+}
+        
+        
+   @media only screen and (max-width:690px){
+        .lift {height: 200px; width: 250px}
+        .line {font-size: 17px; margin-left: 7%;}
+        h1{font-size: 24px;}
+        .solution{margin-left: 5em;
+        margin-right: 7em;}
+        .studentcard{width: 180px; height: 250px; margin-left: 150%;}
+        .scanner{width: 220px; height:180px; }
+       .pic2{margin-left: 15%;}
+       .text1{ display: block;}
+    }
+    
+    @media only screen and (max-width:555px){
+        .studentcard{width: 150px; height: 210px; margin-left: 180%;}
+        .scanner{width: 180px; height:160px; }
+        .pic2{margin-left: 7%;}
+        .text2{font-size: 20px}
+        .text1{ display: block;}
+        }
+        
+    @media only screen and (max-width:460px){
+        .studentcard{width: 100px; height: 150px; margin-left: 180%}
+        .scanner{width: 150px; height:130px; }
+        .text1{ display: block;}
+        }
+        
+    @media only screen and (max-width:360px){
+        .lift{height:120px; width: 150px}
+        h1{font-size: 15px;}
+        .solution{border-radius: 15px;
+                  padding: 0.5em;
+                  border-width: 3px;}
+        .studentcard{width: 90px; height: 120px; margin-left: 190%}
+        .scanner{width: 130px; height:100px; }
+        .text1{ display: block;}
+        }
+   
+     @media only screen and (max-width:270px){
+        .lift{height:100px; width: 120px}
+        h1{font-size: 15px;}
+        .solution{border-radius: 15px;
+                  padding: 0.5em;
+                  margin-top: 30%;
+                  margin-left: 8%;
+                  border-width: 3px;}
+         .nav a{font-size: 18px;}
+         .nav {height: 8%;}
+         .text1{ display: block;}
+        }
+         
+    @media only screen and (max-width:240px){
+        .lift{height:100px; width: 120px}
+        .pic1{margin-top: 15%;}
+        h1{font-size: 15px;}
+        .solution{border-radius: 15px;
+                  padding: 0.5em;
+                  margin-top: 45%;
+                  margin-left: 50%;
+                  margin-right: 10%;
+                  border-width: 3px;}
+         .nav a{font-size: 18px;}
+         .nav {height: 8%;}
+        .text1{ display: block;}
+        }
+              
